@@ -1,0 +1,13 @@
+public class C{
+  public static String describeAge(int age) {
+    if (age <= 12) {
+      return "Eres un niño/a";
+    } else if (age >= 13 && age <= 17) {
+      return "Eres un adolescente";
+    } else if (age >= 18 && age <= 64) {
+      return "Ya eres un adulto";
+    } else {
+      return "Eres un/a anciano";
+    }
+  }
+}
