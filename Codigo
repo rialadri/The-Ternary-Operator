@@ -27,3 +27,6 @@ public class C {
 
 TEST 3: 
 public class C{public static String describeAge(int age){return age<13?"You're a(n) kid":age<18?"You're a(n) teenager":age<65?"You're a(n) adult":"You're a(n) elderly";}}
+
+
+TEST 4: public class C{public static String describeAge(int age){String s="You're a(n) ";return age<13?s+"kid":age<18?s+"teenager":age<65?s+"adult":s+"elderly";}}
