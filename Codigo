@@ -11,3 +11,16 @@ public class C{
     }
   }
 }
+
+
+TEST 2:
+
+public class C {
+    public static String describeAge(int age) {
+        if (age <= 12) return "You're a(n) kid";
+        if (age <= 17) return "You're a(n) teenager";
+        if (age <= 64) return "You're a(n) adult";
+        else {
+        return "You're a(n) elderly";
+    }
+}}
